@@ -6,6 +6,15 @@ My background is in product and entrepreneurship. I now work at the intersection
 
 ## Selected work
 
+### [Ingredient Opportunity Research](https://github.com/sherrywong0512/ingredient-opportunity-research)
+
+**An original evidence-led Codex skill for ingredient feasibility and B2B customer discovery.**
+
+- Turns material identity, science, regulation, formulation, cost-in-use, SKU adoption, and customer fit into an explicit two-stage decision workflow.
+- Includes three audited case studies, hard evidence gates, transparent unresolved blockers, and a dependency-free project validator.
+- Demonstrates product and domain judgment through a reusable Agent Skill rather than a one-off report.
+- Evidence: [case studies](https://github.com/sherrywong0512/ingredient-opportunity-research#case-studies) · [quality model](https://github.com/sherrywong0512/ingredient-opportunity-research#quality-model) · [validator](https://github.com/sherrywong0512/ingredient-opportunity-research/blob/main/scripts/validate_project.py) · [passing CI](https://github.com/sherrywong0512/ingredient-opportunity-research/actions/workflows/validate.yml)
+
 ### [nanoGPT Learning Lab](https://github.com/sherrywong0512/nanoGPT)
 
 **Reproducible learning and evaluation tooling built on Andrej Karpathy's nanoGPT.**
@@ -57,4 +66,4 @@ Based in Singapore · Open to AI Agent, AI product, and applied-AI opportunities
 
 我是 Sherry，拥有产品与创业背景，目前专注于构建**证据可追溯、决策可检查、边界可解释**的 AI Agent 与智能工作流。
 
-这里的项目不以“用了多少 Agent”为成果，而以可复现运行、测试、证据链、人工复核边界和对失败条件的说明作为验证。代表项目包括 nanoGPT 可复现实验室、深度研究证据适配器，以及经过三案例盲测的 AI 投研证据工作流。
+这里的项目不以“用了多少 Agent”为成果，而以可复现运行、测试、证据链、人工复核边界和对失败条件的说明作为验证。代表项目包括原料机会研究 Agent Skill、nanoGPT 可复现实验室、深度研究证据适配器，以及经过三案例盲测的 AI 投研证据工作流。
