@@ -15,23 +15,24 @@ My background is in product and entrepreneurship. I now work at the intersection
 - Preserved the upstream training code unchanged and documented the boundary between upstream work, AI assistance, and my own learning evidence.
 - Evidence: [experiment report](https://github.com/sherrywong0512/nanoGPT/blob/master/docs/experiment-report.md) · [tests](https://github.com/sherrywong0512/nanoGPT/tree/master/tests) · [passing CI](https://github.com/sherrywong0512/nanoGPT/actions/workflows/ci.yml) · [v1.0 tag](https://github.com/sherrywong0512/nanoGPT/tree/v1.0)
 
-### [Evidence-grounded research adapter](https://github.com/sherrywong0512/open_deep_research/pull/1)
+### [Evidence-grounded research adapter](https://github.com/sherrywong0512/open_deep_research)
 
 **A contribution to LangChain's open-deep-research fork that turns research output into reviewable due-diligence evidence.**
 
 - Separates research candidates from verified quotations and requires explicit human review before promotion.
 - Preserves observed source URLs, rejects unsafe URLs and incomplete evidence, and checks that excerpts are grounded in fetched content.
 - Includes adapters, pinned public fixtures, examples, and focused tests.
-- Status: active pull request; the contribution is not presented as upstream or merged work.
+- Merged into this portfolio fork's `main` branch after 27 focused tests passed locally and in GitHub Actions; it is not presented as an upstream LangChain contribution.
+- Evidence: [design and usage](https://github.com/sherrywong0512/open_deep_research#fork-focus-diligence-evidence-packages) · [tests](https://github.com/sherrywong0512/open_deep_research/tree/main/tests) · [passing CI](https://github.com/sherrywong0512/open_deep_research/actions/workflows/diligence-evidence-tests.yml) · [reviewed change](https://github.com/sherrywong0512/open_deep_research/pull/1)
 
-### [Evidence-first investment research workflow](https://github.com/sherrywong0512/ai-berkshire-sherry/tree/codex/framework-eval-3cases)
+### [Evidence-first investment research workflow](https://github.com/sherrywong0512/ai-berkshire-sherry)
 
 **A fork experiment that tests whether explicit evidence contracts improve AI-assisted investment research.**
 
 - Added freshness gates, report audits, review registries, adversarial evidence review, and publication checks.
 - Compared the original and modified workflows across three blind-evaluation cases.
 - Ran an end-to-end Tencent research case with claim-level evidence and review artifacts.
-- Evidence: [fork methodology](https://github.com/sherrywong0512/ai-berkshire-sherry/blob/codex/framework-eval-3cases/docs/SHERRY_FORK_V1.md) · [evaluation](https://github.com/sherrywong0512/ai-berkshire-sherry/tree/codex/framework-eval-3cases/evals/2026-07-13-framework-comparison) · [passing CI](https://github.com/sherrywong0512/ai-berkshire-sherry/actions/workflows/verify.yml)
+- Evidence: [fork methodology](https://github.com/sherrywong0512/ai-berkshire-sherry/blob/main/docs/SHERRY_FORK_V1.md) · [evaluation](https://github.com/sherrywong0512/ai-berkshire-sherry/tree/main/evals/2026-07-13-framework-comparison) · [passing CI](https://github.com/sherrywong0512/ai-berkshire-sherry/actions/workflows/verify.yml)
 
 ## How I work
 
