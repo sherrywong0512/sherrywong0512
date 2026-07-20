@@ -1,66 +1,59 @@
 # Hi, I'm Sherry 👋
 
-[English](#english) · [中文](#中文)
+I build evidence-grounded AI agents and workflows: systems that make their sources, decisions, tests, and human-review boundaries inspectable.
 
-## English
+My background is in product and entrepreneurship. I now work at the intersection of AI product design, agent reliability, research automation, and reproducible evaluation.
 
-I’m an AI product builder and practitioner, focused on turning emerging technologies into workflows and products that are useful, testable, and designed to improve over time.
+## Selected work
 
-My startup experience has taught me to start with the real world: What problem are we solving? Will people use it? Can it work end to end? And can it grow beyond the effort of any one person?
+### [nanoGPT Learning Lab](https://github.com/sherrywong0512/nanoGPT)
 
-I’m now bringing that perspective into the AI era—building, learning, and experimenting at the intersection of products, research, and intelligent workflows.
+**Reproducible learning and evaluation tooling built on Andrej Karpathy's nanoGPT.**
 
-### ✨ What I'm exploring
+- Added a CLI that records configuration, environment, Git state, data hashes, logs, metrics, summaries, and checkpoints for each experiment.
+- Added controlled CPU experiments, artifact-consistency checks, a generated evidence dashboard, and integration tests.
+- Preserved the upstream training code unchanged and documented the boundary between upstream work, AI assistance, and my own learning evidence.
+- Evidence: [experiment report](https://github.com/sherrywong0512/nanoGPT/blob/master/docs/experiment-report.md) · [tests](https://github.com/sherrywong0512/nanoGPT/tree/master/tests) · [passing CI](https://github.com/sherrywong0512/nanoGPT/actions/workflows/ci.yml) · [v1.0 tag](https://github.com/sherrywong0512/nanoGPT/tree/v1.0)
 
-- AI-native products: from a real need to a testable MVP
-- Agents and automation for research, operations, and everyday decision-making
-- Reusable tools and methods shaped by entrepreneurial judgment and user empathy
-- The ways AI is changing products, industries, and the opportunities available to small teams
+### [Evidence-grounded research adapter](https://github.com/sherrywong0512/open_deep_research/pull/1)
 
-### 🔍 Questions I care about
+**A contribution to LangChain's open-deep-research fork that turns research output into reviewable due-diligence evidence.**
 
-- Where can AI create meaningful leverage, and where does human judgment matter most?
-- How do we move from an impressive demo to a product people genuinely rely on?
-- How can small teams use AI to build with more clarity, care, and momentum?
+- Separates research candidates from verified quotations and requires explicit human review before promotion.
+- Preserves observed source URLs, rejects unsafe URLs and incomplete evidence, and checks that excerpts are grounded in fetched content.
+- Includes adapters, pinned public fixtures, examples, and focused tests.
+- Status: active pull request; the contribution is not presented as upstream or merged work.
 
-### 🌱 What you'll find here
+### [Evidence-first investment research workflow](https://github.com/sherrywong0512/ai-berkshire-sherry/tree/codex/framework-eval-3cases)
 
-- AI-native product and workflow experiments
-- Agent and automation practices
-- Notes on entrepreneurship in the AI era
-- Research, reflections, and reusable tools
+**A fork experiment that tests whether explicit evidence contracts improve AI-assisted investment research.**
 
-> I believe AI’s value goes beyond improving efficiency. It can redefine how value is created—and enable more people to create it.
+- Added freshness gates, report audits, review registries, adversarial evidence review, and publication checks.
+- Compared the original and modified workflows across three blind-evaluation cases.
+- Ran an end-to-end Tencent research case with claim-level evidence and review artifacts.
+- Evidence: [fork methodology](https://github.com/sherrywong0512/ai-berkshire-sherry/blob/codex/framework-eval-3cases/docs/SHERRY_FORK_V1.md) · [evaluation](https://github.com/sherrywong0512/ai-berkshire-sherry/tree/codex/framework-eval-3cases/evals/2026-07-13-framework-comparison) · [passing CI](https://github.com/sherrywong0512/ai-berkshire-sherry/actions/workflows/verify.yml)
+
+## How I work
+
+```text
+real problem → explicit evidence contract → smallest useful workflow
+→ tests and adversarial review → documented limits → next iteration
+```
+
+I care about the boundary between a convincing AI demo and a system people can responsibly use: provenance, failure handling, evaluation, human judgment, and clear ownership of AI-assisted work.
+
+## Current focus
+
+- AI agent product design and reliability
+- Research agents with traceable evidence
+- Evaluation workflows that replace vague quality claims with reviewable artifacts
+
+Based in Singapore · Open to AI Agent, AI product, and applied-AI opportunities.
 
 ---
 
-## 中文
+## 中文简介
 
-我是一名 AI 产品与应用实践者，关注如何把新技术转化为真正可用、可验证、可持续迭代的工作流与产品。
+我是 Sherry，拥有产品与创业背景，目前专注于构建**证据可追溯、决策可检查、边界可解释**的 AI Agent 与智能工作流。
 
-我的创业与业务实践经历，让我始终从真实问题出发：问题是否成立？用户会不会使用？流程能否跑通？一件事能否不再只靠某个人硬扛，而成为可以持续生长的系统？
-
-现在，我正把这些经验带入 AI 时代，在产品、研究与智能工作流的交汇处持续学习、构建与实验。
-
-### ✨ 我正在探索
-
-- 从真实需求走向可验证 MVP 的 AI-native 产品
-- 用 Agent 与自动化改善研究、运营和日常决策
-- 将创业中的判断、用户视角与执行经验沉淀为可复用的方法和工具
-- AI 如何改变产品、行业，以及小团队能够创造的机会
-
-### 🔍 我关心的问题
-
-- AI 在哪里能带来真正的杠杆，又在哪里最需要人的判断？
-- 一个令人惊艳的 Demo，如何变成用户真正愿意依赖的产品？
-- 小团队如何借助 AI，以更清晰、更从容的方式创造新业务？
-
-### 🌱 这里会持续更新
-
-- AI-native 产品与工作流实验
-- Agent 与自动化实践
-- AI 时代的创业思考
-- 研究、复盘与可复用工具
-
-> 我相信，AI 的价值不止在于提高效率，  
-> 更在于可以重新定义价值创造的方式，并让更多人拥有创造价值的能力。
+这里的项目不以“用了多少 Agent”为成果，而以可复现运行、测试、证据链、人工复核边界和对失败条件的说明作为验证。代表项目包括 nanoGPT 可复现实验室、深度研究证据适配器，以及经过三案例盲测的 AI 投研证据工作流。
