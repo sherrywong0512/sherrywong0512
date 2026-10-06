@@ -10,6 +10,11 @@ My startup experience has taught me to start with the real world: What problem a
 
 I’m now bringing that perspective into the AI era—building evidence-grounded AI agents and workflows whose sources, decisions, tests, and human-review boundaries are inspectable.
 
+### Introduction & business experience
+
+- [Entrepreneurship and company introduction (PDF, Chinese, 95 pages)](portfolio/entrepreneurship-and-company-introduction.pdf) — supplementary background on past activities, brands, and company experience.
+- [Download my introduction video (MOV, 2025)](https://github.com/sherrywong0512/sherrywong0512/raw/refs/heads/main/portfolio/Sherry-Intro-2025.MOV)
+
 ## Selected work
 
 ### [Ingredient Opportunity Research](https://github.com/sherrywong0512/ingredient-opportunity-research)
@@ -97,6 +102,11 @@ Based in Singapore · Open to AI Agent, AI product, and applied-AI opportunities
 现在，我正把这些经验带入 AI 时代，专注于构建**证据可追溯、决策可检查、边界可解释**的 AI Agent 与智能工作流，并在产品、研究与智能工作流的交汇处持续学习、构建与实验。
 
 这里的项目不以“用了多少 Agent”为成果，而以可复现运行、测试、证据链、人工复核边界和对失败条件的说明作为验证。代表项目包括原料机会研究 Agent Skill、证据驱动项目评估 Agent、nanoGPT 可复现实验室，以及深度研究证据适配器。
+
+### 自我介绍与过往业务经历
+
+- [创办活动和公司介绍（PDF，95 页）](portfolio/entrepreneurship-and-company-introduction.pdf)：过往活动、品牌与公司经历的补充材料。
+- [下载自我介绍视频（MOV，2025）](https://github.com/sherrywong0512/sherrywong0512/raw/refs/heads/main/portfolio/Sherry-Intro-2025.MOV)
 
 ### ✨ 我正在探索
 
